@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    background: rgb(189, 189, 189);
+    background: linear-gradient(90deg, rgb(182, 139, 176) 0%, rgb(223, 133, 223) 0%, rgb(129, 129, 129) 48%, rgb(233, 233, 233) 100%);
+    background-size: 300% 100%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.img-code{
+    max-width: 400px;
+    height: auto
+}
+
+.list-group, .list-group-item{
+    border-radius: 10px;
+    background-color: #fffefe71 !important
+}
+.list-group{
+    background-color: transparent !important
+}
+.lista{
+    background-color: #2b2b2b;
+    padding: .6em;
+    border-radius: 10px
+}
+.lista h4{
+    color: aliceblue
+}
+.list-group-item span{
+    font-weight: bold
+}
+.btn{
+    margin: 1em auto
+}
