@@ -51,7 +51,9 @@ function activar_alerta() {
 
     if(tipo != null && mensaje != "" && x != null && y != null && tiempo != "" && distancia != ""){
         alerta(tipo, mensaje, x, y, parseInt(tiempo), parseInt(distancia))
-    } 
+    }else{
+        alerta('danger', 'Debe ingresar todos los parámetros de la función.', 'left', 'top', 3000, 0)
+    }
     
 }
 
