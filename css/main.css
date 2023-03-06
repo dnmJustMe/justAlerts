@@ -91,3 +91,7 @@
   .sangria{
     text-indent: 20px;
   }
+
+  #tiempo, #distancia, #x, #y{
+    width: 7em !important;
+  }
