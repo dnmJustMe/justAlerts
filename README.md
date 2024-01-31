@@ -4,7 +4,7 @@ Made by justMe (20/04/2021).
 
 ## ¿Qué es justAlerts?
 
-![justAlerts Logo]([https://dnmjustme.github.io/justAlerts/img/justMe-free-file.png])
+<img src="https://dnmjustme.github.io/justAlerts/img/justMe-free-file.png" alt="justAlerts Logo" width="100"> 
 
 `justAlerts` es una librería JavaScript desarrollada por Daniel Navarro Machín (dnmJustMe) con jQuery, de código eficiente y minimalista.
 
